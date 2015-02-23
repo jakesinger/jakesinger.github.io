@@ -17,6 +17,7 @@ a, h1, h2, h3, h4, h5, h6, li {
 
 p {
     margin-bottom: 36px;
+    line-height: 1.4em;
 }
 
 @media (max-width: 640px) {
@@ -45,6 +46,12 @@ h2 {
     font-size: 27px;
 }
 
+h3 {
+    font-family: 'EncodeSans-Bold', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 li {
     font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -52,6 +59,10 @@ li {
 
 li.active {
     font-family: 'EncodeSans-Bold', Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin: 28px 0 28px 0;
 }
 
 button,
@@ -179,7 +190,14 @@ button,
 }
 
 aside img {
+    width: 233;
     margin: 0 0 28px 0;
+}
+
+@media (max-width: 1024px) {
+    aside img {
+        width: 184px;
+    }
 }
 
 #footer-wrapper {
