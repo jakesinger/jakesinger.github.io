@@ -1,0 +1,269 @@
+
+body {
+    background-color: #E9E9E9;
+    font-size: 18px;
+    font-family: 'EncodeSans-Regular', Arial, Helvetica, sans-serif;
+}
+
+strong {
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+}
+
+p,
+a, h1, h2, h3, h4, h5, h6, li {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1em;
+}
+
+p {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 640px) {
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+a {
+    display: inline-block;
+    color: #FF2D55;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-family: 'Comfortaa-Regular', Arial, sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'Comfortaa-Regular', Arial, sans-serif;
+    font-size: 27px;
+}
+
+li {
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+li.active {
+    font-family: 'EncodeSans-Bold', Arial, Helvetica, sans-serif;
+}
+
+button,
+.button {
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+    margin: 0 0 1.25em;
+    text-align: center;
+    display: inline-block;
+    padding: 0.4em 0.7em;
+    font-size: 18px;
+    background-color: white;
+    color: #FF2D55;
+    -moz-border-radius: 4px / 4px;
+    -webkit-border-radius: 4px 4px;
+    border-radius: 4px / 4px;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#navigation-wrapper a {
+    color: white;
+}
+
+#navigation-wrapper .button {
+    color: black;
+}
+
+#navigation-wrapper .button:hover {
+    color: white;
+}
+
+#navigation-wrapper ul#navigation-email {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.header-wrapper {
+    background-color: #FF2D55;
+    padding-top: 24px;
+    padding-bottom: 34px;
+    border-top: 10px solid black;
+}
+
+#navigation-wrapper nav#navigation {
+    margin-top: 8px;
+}
+
+#navigation-wrapper nav#navigation ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+#navigation-wrapper nav#navigation ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#header-content > h1 {
+    color: white;
+}
+
+#header-content > h2 {
+    color: white;
+}
+
+.content-wrapper {
+    background-color: white;
+    padding-top: 34px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#aside-email {
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 640px) {
+    aside {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    aside hr {
+        margin-bottom: 38px;
+    }
+}
+
+@media (min-width: 641px) {
+    .show-for-small-only {
+        display: none;
+    }
+}
+
+.circle-img {
+    -webkit-clip-path: circle(49% at 50% 50%);
+    clip-path: circle(49% at 50% 50%);
+}
+
+aside img {
+    margin: 0 0 28px 0;
+}
+
+#footer-wrapper {
+    margin-top: 0px;
+}
+
+#footer-wrapper footer {
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+
+#footer-wrapper footer > ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    width: 80%;
+    margin: 0 10% 6em 10%;
+}
+
+#footer-wrapper footer > ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#footer-wrapper footer > ul li:first-child {
+    padding-left: 0;
+}
+
+#footer-wrapper footer > ul li:last-child {
+    padding-right: 0;
+}
+
+#footer-wrapper footer > ul li.last {
+    padding-right: 0;
+}
+
+#footer-wrapper footer > ul li {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-wrapper footer > ul li a img {
+    margin: 0 auto;
+}
+
+#footer-wrapper footer > ul li.linkedin {
+    margin-top: 28px;
+}
+
+#footer-wrapper footer > ul li.github {
+    margin-top: 28px;
+}
+
+/* line 549, /srv/timmyomahony.com/timmyomahony.com/_assets/stylesheets/app.scss */
+#footer-wrapper footer > a {
+    font-family: "Din Rounded Pro", "Helvetic", Arial, sans-serif;
+}
+
+@media (max-width: 640px) {
+    #footer-wrapper {
+        margin-top: 0em;
+    }
+
+    #footer-wrapper footer {
+        margin: 20px 0 20px 0;
+    }
+
+    #footer-wrapper footer > ul {
+        margin-bottom: 48px;
+    }
+
+    #footer-wrapper footer > ul li {
+        width: 100%;
+    }
+}
+
+object {
+    pointer-events: none;
+}
