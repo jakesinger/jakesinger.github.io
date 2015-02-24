@@ -40,12 +40,12 @@
 /* Encode Sans (Regular) */
 @font-face {
     font-family: 'EncodeSans-Regular';
-    src: url('EncodeSans-Regular-webfont.eot');
-    src: url('EncodeSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('EncodeSans-Regular-webfont.woff2') format('woff2'),
-         url('EncodeSans-Regular-webfont.woff') format('woff'),
-         url('EncodeSans-Regular-webfont.ttf') format('truetype'),
-         url('EncodeSans-Regular-webfont.svg#encode_sansregular') format('svg');
+    src: url('encode-sans/EncodeSans-Regular-webfont.eot');
+    src: url('encode-sans/EncodeSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('encode-sans/EncodeSans-Regular-webfont.woff2') format('woff2'),
+         url('encode-sans/EncodeSans-Regular-webfont.woff') format('woff'),
+         url('encode-sans/EncodeSans-Regular-webfont.ttf') format('truetype'),
+         url('encode-sans/EncodeSans-Regular-webfont.svg#encode_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
