@@ -205,6 +205,10 @@ aside img {
 }
 
 @media (max-width: 1024px) {
+    aside {
+        padding-bottom: 24px;
+    }
+
     aside img {
         width: 184px;
     }
