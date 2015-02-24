@@ -107,10 +107,19 @@ button,
 }
 
 .header-wrapper {
+    background-image: url("../img/banner.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #FF2D55;
     padding-top: 24px;
     padding-bottom: 34px;
     border-top: 10px solid black;
+}
+
+@media (max-width: 640px) {
+    .header-wrapper {
+        background-size: 250%;
+    }
 }
 
 #navigation-wrapper nav#navigation {
