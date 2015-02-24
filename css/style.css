@@ -217,9 +217,15 @@ aside img {
     margin-top: 0px;
 }
 
+@media (max-width: 1024px) {
+    #footer-wrapper {
+        background-size: 150%;
+    }
+}
+
 @media (max-width: 640px) {
     #footer-wrapper {
-        background-size: 250%;
+        background-size: 200%;
     }
 }
 
