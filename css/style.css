@@ -165,7 +165,13 @@ button,
 
 .content-wrapper {
     background-color: white;
-    padding-top: 34px;
+    padding-top: 24px;
+}
+
+@media (max-width: 640px) {
+    .content-wrapper {
+        padding-top: 12px;
+    }
 }
 
 .video-wrapper {
