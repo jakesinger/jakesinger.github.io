@@ -116,9 +116,21 @@ button,
     border-top: 10px solid black;
 }
 
+@media (max-width: 1024px) {
+    .header-wrapper {
+        background-size: 150%;
+    }
+}
+
 @media (max-width: 640px) {
     .header-wrapper {
-        background-size: 250%;
+        background-size: 200%;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        text-align: center;
     }
 }
 
@@ -171,14 +183,13 @@ button,
     height: 100%;
 }
 
-@media (max-width: 640px) {
+hr {
+    margin-bottom: 38px;
+}
+
+@media (max-width: 1024px) {
     aside {
         text-align: center;
-        margin-bottom: 2em;
-    }
-
-    aside hr {
-        margin-bottom: 38px;
     }
 }
 
