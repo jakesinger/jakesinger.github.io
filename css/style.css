@@ -210,7 +210,16 @@ aside img {
 }
 
 #footer-wrapper {
+    background-image: url("../img/footer.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 0px;
+}
+
+@media (max-width: 640px) {
+    #footer-wrapper {
+        background-size: 250%;
+    }
 }
 
 #footer-wrapper footer {
