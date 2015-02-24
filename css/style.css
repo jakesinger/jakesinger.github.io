@@ -189,10 +189,6 @@ button,
     height: 100%;
 }
 
-hr {
-    margin-bottom: 38px;
-}
-
 @media (max-width: 1024px) {
     aside {
         text-align: center;
@@ -217,6 +213,16 @@ aside img {
 
     aside img {
         width: 184px;
+    }
+}
+
+@media (max-width: 640px) {
+    hr {
+        margin: 0px 0px 24px 0px;
+    }
+
+    aside {
+        padding-bottom: 8px;
     }
 }
 
