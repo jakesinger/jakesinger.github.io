@@ -10,14 +10,15 @@ strong {
 }
 
 p,
-a, h1, h2, h3, h4, h5, h6, li {
+a {
     -webkit-font-smoothing: antialiased;
-    line-height: 1em;
+    line-height: 1.4em;
 }
 
-p {
-    margin-bottom: 36px;
-    line-height: 1.4em;
+h1,
+h2, h3, h4, h5, h6, li {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.1em;
 }
 
 @media (max-width: 640px) {
@@ -44,12 +45,12 @@ h1 {
 h2 {
     font-family: 'Comfortaa-Regular', Arial, sans-serif;
     font-size: 27px;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'EncodeSans-Bold', Arial, sans-serif;
     font-size: 18px;
-    margin-top: 10px;
 }
 
 li {
@@ -112,7 +113,7 @@ button,
     background-repeat: no-repeat;
     background-color: #FF2D55;
     padding-top: 24px;
-    padding-bottom: 34px;
+    padding-bottom: 12px;
     border-top: 10px solid black;
 }
 
@@ -170,10 +171,6 @@ button,
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-#aside-email {
-    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 640px) {
