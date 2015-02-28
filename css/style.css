@@ -2,22 +2,20 @@
 body {
     background-color: #E9E9E9;
     font-size: 18px;
-    font-family: 'EncodeSans-Regular', Arial, Helvetica, sans-serif;
+    font-family: 'EncodeSans-Light', Arial, Helvetica, sans-serif;
 }
 
 strong {
-    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+    font-family: 'EncodeSans-Regular', Arial, Helvetica, sans-serif;
 }
 
 p,
-a {
-    -webkit-font-smoothing: antialiased;
+a { 
     line-height: 1.4em;
 }
 
 h1,
 h2, h3, h4, h5, h6, li {
-    -webkit-font-smoothing: antialiased;
     line-height: 1.1em;
 }
 
@@ -43,9 +41,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Comfortaa-Regular', Arial, sans-serif;
+    font-family: 'Comfortaa-Thin', Arial, sans-serif;
     font-size: 27px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 
 h3 {
@@ -54,12 +52,12 @@ h3 {
 }
 
 li {
-    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+    font-family: 'EncodeSans-Regular', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
 li.active {
-    font-family: 'EncodeSans-Bold', Arial, Helvetica, sans-serif;
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -170,6 +168,9 @@ button,
     font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
 }
 
+.content-wrapper h2 {
+    padding-top: 8px;
+}
 
 @media (max-width: 640px) {
     .content-wrapper {
