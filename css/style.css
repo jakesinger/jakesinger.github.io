@@ -166,6 +166,11 @@ button,
     padding-top: 24px;
 }
 
+.content-wrapper a {
+    font-family: 'EncodeSans-Medium', Arial, Helvetica, sans-serif;
+}
+
+
 @media (max-width: 640px) {
     .content-wrapper {
         padding-top: 12px;
