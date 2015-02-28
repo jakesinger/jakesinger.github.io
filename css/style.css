@@ -124,11 +124,9 @@ button,
 
 @media (max-width: 640px) {
     .header-wrapper {
-        background-size: 200%;
+        background-size: auto 150%;
     }
-}
 
-@media (max-width: 640px) {
     header {
         text-align: center;
     }
@@ -241,7 +239,7 @@ aside img {
 
 @media (max-width: 640px) {
     #footer-wrapper {
-        background-size: 200%;
+        background-size: auto 150%;
     }
 }
 
