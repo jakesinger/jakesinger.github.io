@@ -1,169 +1,48 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="lt-ie9" lang="en" ><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en" ><!--<![endif]-->
-<head>
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <title>Jake Singer</title>
-  <meta name="description" content="I'm a computer science student at the University of North Texas.">
+<html>
+  <head>
 
-  <!-- Open Graph -->
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Jake Singer | Programmer">
-  <meta property="og:description" content="I'm a computer science student at the University of North Texas.">
-  <meta property="og:url" content="http://www.jakesinger.com">
-  <meta property="og:site_name" content="Jake Singer">
+    <script type='text/javascript'>
+      document.addEventListener('DOMContentLoaded', function() {
+        var start = new Date("2015-06-01");
+        var timespan = new Date(Date.now() - start);
+        var years = timespan.getUTCFullYear() - 1970;
+        document.getElementById('years').innerHTML = years.toString();
+      });
+    </script>
+  </head>
+  <style>
+    @font-face {
+      font-family: 'CascadiaCode';
+      src: url('fonts/CascadiaCode.woff2') format('woff2'),
+           url('fonts/CascadiaCode.ttf') format('truetype');
+    }
 
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary">
-  <meta property="og:url" content="http://www.jakesinger.com">
-  <meta name="twitter:title" content="Jake Singer | Programmer" />
-  <meta name="twitter:description" content="I'm a computer science student at the University of North Texas." />
+    body {
+      font-family: 'CascadiaCode';
+      padding: 0px 16px;
+      color: #F8F8F2;
+      background: #282A36;
+    }
 
-  <!-- Mobile -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    h1 {
+      font-size: 18pt;
+    }
 
-  <!-- Assets -->
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/vendor/modernizr.js"></script>
-  
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-59903357-1']);
-    _gaq.push(['_trackPageview']);
-  </script>
-</head>
-<body>
+    a {
+      color: #8BE9FD;
+    }
 
-  <div class="header-wrapper" id="homepage-header-wrapper">
-    <div class="row" id="navigation-wrapper">
-      <div class="large-12 small-12 column">
-        <ul class="left" id="navigation-email"><li><a class="button" href="mailto:jake@jakesinger.com" rel="nofollow">Email Me</a></li></ul>
-        <nav class="right" role="navigation" id="navigation"><ul>
-            <li class="active"><a href="/">About</a></li>
-        </ul></nav>
-      </div>
-    </div>
-    <header class="row">
-      <div class="large-12 small-12 columns" id="header-content">
-        <h1>Jake Singer</h1>
-        <h2>I'm a computer science student at the University of North Texas.</h2>
-      </div>
-    </header>
-  </div>
-
-  <div class="content-wrapper">
-    <div class="row" role="main">
-      <article class="medium-8 small-12 columns" id="content">
-        <p>
-          I am a programmer with experience in
-          <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, <strong>JavaScript</strong>, <strong>Objective-C</strong>, and <strong>Swift</strong>
-          software development.
-        </p>
-
-        <h2>Experience</h2>
-        <h3>Next Generation 911</h3>
-        <p>
-          During the summer of 2014, I worked as an undergraduate research
-          assistant for
-          <a href="http://nsl.unt.edu">UNT's Network Security Lab</a>. There, I
-          helped develop
-          <a href="http://engineering.unt.edu/unt-research-featured-nsf-website">next generation 911</a>
-          software.
-          <img src="img/cpr-screens.png" />
-          NG911 is a mobile application for iPhone and Android that helps users
-          properly perform CPR. A web portal is also available, allowing 911
-          operators or EMS personnel to monitor CPR performance. The
-          <a href="http://circ.ahajournals.org/content/early/2013/06/25/CIR.0b013e31829d8654">American Heart Association's CPR guidelines</a>
-          and guidance from <a href="http://www.actionambulance.com">Action EMS</a>
-          were used to inform all decisions made during development.
-        </p>
-
-        <h2>Completed Class Work</h2>
-        <h3>Rock 'Em Soccer Robots</h3>
-        <p>
-          In December 2013, I completed the class
-          <a href="http://larc.unt.edu/classes/csce4210.html">Game Programming 1</a>
-          where I worked with Stephen Sanders to produce a game over the course of a
-          semester. The result is Rock 'Em Soccer Robots, which we made from scratch
-          in C and C++. The game runs in Windows using DirectX 9.
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/cVsymOcM65o" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </p>
-
-        <h3>Desk Flip Simulator 2014</h3>
-        <p>
-          I took the class
-          <a href="http://larc.unt.edu/classes/csce4220.html">Game Programming 2</a>
-          in May 2014. The focus for this game was to use DirectX 11 and Bullet
-          Physics. Like the previous game, it was produced from scratch in C and
-          C++. While we did not have enough time to create actual enemies within
-          the game (we simply made desks fly around, trying to kill you), our
-          efforts resulted in a surprisingly fun experience.
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/aJiU85_dPzk" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </p>
-      </article>
-
-      <aside class="medium-4 small-12 columns">
-        <hr class="show-for-small-only" />
-        <img src="img/portrait.jpg" />
-        <p>You can contact me at <a href="mailto:jake@jakesinger.com">jake@jakesinger.com.</a></p>
-        <p>Take a look at my <a href="files/resume-jake-singer.pdf">resume here.</a></p>
-      </aside>
-    </div>
-  </div>
-
-  <div id="footer-wrapper">
-    <div class="row">
-      <div class="large-12 small-12 large-centered columns">
-        <footer role="footer">
-          <ul>
-            <li class="linkedin">
-              <a href="https://www.linkedin.com/profile/view?id=312596667">
-                <object data="img/linkedin.svg" type="image/svg+xml" height=34>
-                  <img src="img/linkedin.png" height=34 />
-                </object>
-              </a>
-            </li>
-            <li class="github">
-              <a href="https://github.com/jakesinger">
-                <object data="img/github.svg" type="image/svg+xml" height=34>
-                  <img src="img/github.png" height=34 />
-                </object>
-              </a>
-            </li>
-          </ul>
-        </footer>
-      </div>
-    </div>
-  </div>
-
-  <!-- Assets -->
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
-
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-    (function() {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:'   == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
-   </script>
-</body class="homepage">
+    @media only screen and (min-width: 600px) {
+      body {
+        padding: 0px calc(20vw);
+      }
+    }
+    
+  </style>
+  <body>
+    <h1>Jake Singer</h1>
+    <p>Hello! I'm a programmer with <span id='years'>over 8</span> years of professional game development experience.</p>
+    <p>You can contact me at <a href="mailto:jake@jakesinger.com">jake@jakesinger.com</a></p>
+  </body> 
 </html>
